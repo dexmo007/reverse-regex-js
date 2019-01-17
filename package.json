@@ -1,0 +1,21 @@
+{
+  "name": "reverse-regex",
+  "version": "1.0.0",
+  "description": "Reversing regular expression matching",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "run": "yarn run build && node lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "regex"
+  ],
+  "author": "Henrik Drefs",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6"
+  }
+}
